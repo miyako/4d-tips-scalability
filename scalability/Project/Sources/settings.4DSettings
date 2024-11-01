@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="5">
+	<com.4d>
+		<database>
+			<cache/>
+			<cpu_priority/>
+			<misc standard_xpath="false"/>
+		</database>
+		<interface>
+			<misc/>
+			<developper/>
+		</interface>
+		<web>
+			<standalone_server>
+				<configuration/>
+				<options>
+					<web_processes/>
+					<text_conversion/>
+					<cache/>
+					<filters/>
+					<cors enabled="false"/>
+				</options>
+			</standalone_server>
+			<remote>
+				<options>
+					<web_processes timeout_for_inactives="5"/>
+					<cache use_4d_web_cache="false"/>
+					<filters allow_4dsync_urls="true"/>
+				</options>
+				<configuration automatic_session_management="true" listening_address="0.0.0.0" session_mode="2"/>
+			</remote>
+		</web>
+		<compiler>
+			<typage default_for_button="2" default_for_numeric="1"/>
+			<options target="all"/>
+		</compiler>
+		<server>
+			<network>
+				<options publication_name="scalability" use_legacy_network_layer="false"/>
+				<client_server use_encryption="false"/>
+			</network>
+			<ip_config>
+				<allow_deny_table>
+					<allow_deny address="*" allow="true"/>
+				</allow_deny_table>
+			</ip_config>
+			<misc/>
+		</server>
+		<deployment>
+			<options/>
+		</deployment>
+	</com.4d>
+</preferences>
