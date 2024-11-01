@@ -1,0 +1,110 @@
+{
+	"bars": [
+		{
+			"id": 1,
+			"name": "Barre n｡1",
+			"items": [
+				{
+					"link": 23241
+				},
+				{
+					"link": 3801
+				},
+				{
+					"link": 2559
+				}
+			]
+		}
+	],
+	"menus": [
+		{
+			"link": 23241,
+			"title": ":79,1",
+			"items": [
+				{
+					"title": ":131,30",
+					"shortcutAccel": true,
+					"shortcutKey": "Q",
+					"action": "quit"
+				}
+			]
+		},
+		{
+			"link": 3801,
+			"title": ":79,5",
+			"items": [
+				{
+					"title": ":131,18",
+					"shortcutAccel": true,
+					"shortcutKey": "Z",
+					"action": "undo"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":131,20",
+					"shortcutAccel": true,
+					"shortcutKey": "X",
+					"action": "cut"
+				},
+				{
+					"title": ":131,21",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"action": "copy"
+				},
+				{
+					"title": ":131,22",
+					"shortcutAccel": true,
+					"shortcutKey": "V",
+					"action": "paste"
+				},
+				{
+					"title": ":131,23",
+					"action": "clear"
+				},
+				{
+					"title": ":131,24",
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"action": "selectAll"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":131,25",
+					"action": "showClipboard"
+				}
+			]
+		},
+		{
+			"link": 2559,
+			"title": ":79,6",
+			"items": [
+				{
+					"title": ":131,27",
+					"shortcutAccel": true,
+					"shortcutKey": "Y",
+					"action": "design"
+				},
+				{
+					"title": ":131,28",
+					"shortcutAccel": true,
+					"shortcutKey": "U",
+					"action": "userMode"
+				},
+				{
+					"title": ":131,29",
+					"state": "checked",
+					"shortcutAccel": true,
+					"shortcutKey": "I",
+					"action": "application"
+				}
+			]
+		}
+	]
+}
