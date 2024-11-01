@@ -6,6 +6,8 @@ replica of 4D v11 SQL demo database, originally shown at the 2008 Summit in Long
 
 Original work by Laurent Ribardière and Laurent Esnault
 
+[generate the data](https://github.com/miyako/4d-tips-scalability/blob/main/scalability/Project/Sources/Methods/Build%20Recs.4dm) first or download a copy from [releases](https://github.com/miyako/4d-tips-scalability/releases/tag/data).
+
 ### [`original`](https://github.com/miyako/4d-tips-scalability/tree/original) branch
 
 the query and sort are executed in multiple forms. 
