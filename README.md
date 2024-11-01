@@ -4,6 +4,8 @@
 # scalability
 replica of 4D v11 SQL demo database, originally shown at the 2008 Summit in Long Beach, CA.
 
+Original work by Laurent Ribardière and Laurent Esnault
+
 ### [`original`](https://github.com/miyako/4d-tips-scalability/tree/original) branch
 
 the query and sort are executed in multiple forms. 
