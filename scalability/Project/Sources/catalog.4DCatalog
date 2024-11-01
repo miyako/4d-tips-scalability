@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="scalability" uuid="2FBBBF5084D54F718B94E4C4B6BDC77D" collation_locale="ja">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Table 1" uuid="7B0FCACE80E24104A8E1620481135944" id="1">
+		<field name="Field1" uuid="7AC5DC2595424FB4BA2DB59E4F612E58" type="4" never_null="true" id="1"/>
+		<field name="Field2" uuid="6D1044F99973403FB569A66879CF76C1" type="4" never_null="true" id="2"/>
+		<field name="Id" uuid="2FDFC675BFA04F35BC1B40201A95307E" type="4" unique="true" autosequence="true" id="3"/>
+		<primary_key field_name="Id" field_uuid="2FDFC675BFA04F35BC1B40201A95307E"/>
+		<table_extra input_form="dialogform">
+			<editor_table_info displayable_fields_count="2">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="30" top="20" width="87" height="102"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" name="pk_index_1" uuid="8464DB505113458E8C9A53885B1CC377" type="7">
+		<field_ref uuid="2FDFC675BFA04F35BC1B40201A95307E" name="Id">
+			<table_ref uuid="7B0FCACE80E24104A8E1620481135944" name="Table 1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="9F0B9BB8B0EB451391D15956F7E0865D" type="7">
+		<field_ref uuid="6D1044F99973403FB569A66879CF76C1" name="Field2">
+			<table_ref uuid="7B0FCACE80E24104A8E1620481135944" name="Table 1"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":scalability.4DD"/>
+</base>
