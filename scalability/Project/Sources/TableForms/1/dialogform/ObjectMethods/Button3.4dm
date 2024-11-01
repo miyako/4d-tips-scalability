@@ -1,2 +1,2 @@
-result3:=Starter("loop Indexed Sort"; 1; 10)
+result3:=Starter(Formula:C1597(loop Indexed Sort).source; 1; 10)
 

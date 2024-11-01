@@ -1,0 +1,4 @@
+scalability/Project/DerivedData/*
+scalability/userPreferences.*
+scalability/Libraries/lib4d-arm64.dylib
+scalability/Data/*

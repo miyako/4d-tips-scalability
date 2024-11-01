@@ -1,2 +1,2 @@
-//%attributes = {"invisible":true,"preemptive":"capable"}
+//%attributes = {"invisible":true}
 Starter(Formula:C1597(loop Seq Search).source; 3; 20)

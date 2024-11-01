@@ -1,6 +1,6 @@
 {
 	"destination": "detailScreen",
-	"rightMargin": 19,
+	"rightMargin": 20,
 	"bottomMargin": 20,
 	"markerHeader": 15,
 	"markerBody": 200,
@@ -286,7 +286,7 @@
 			"View 9": {}
 		}
 	},
-	"geometryStamp": 22,
+	"geometryStamp": 23,
 	"$4d": {
 		"version": "1",
 		"kind": "form"

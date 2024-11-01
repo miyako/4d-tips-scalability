@@ -1,1 +1,1 @@
-result1:=Starter("loop Seq Search"; 1; 10)
+result1:=Starter(Formula:C1597(loop Seq Search).source; 1; 10)
