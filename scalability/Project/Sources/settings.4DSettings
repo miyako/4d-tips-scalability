@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><preferences stamp="5">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="6">
 	<com.4d>
 		<database>
-			<cache/>
+			<cache adaptative="false" size_fixed="1024"/>
 			<cpu_priority/>
 			<misc standard_xpath="false"/>
 		</database>
