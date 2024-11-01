@@ -22,29 +22,15 @@
 					"left": 11,
 					"width": 347,
 					"height": 49,
-					"dataSource": "Button1",
+					"dataSource": "",
 					"text": "Seq Search with 1 process",
 					"fontFamily": "Helvetica",
 					"fontSize": 24,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
-				},
-				"Button2": {
-					"type": "button",
-					"top": 37,
-					"left": 408,
-					"width": 345,
-					"height": 49,
-					"dataSource": "Button1",
-					"text": "Seq Search with 7 process",
-					"fontFamily": "Helvetica",
-					"fontSize": 24,
-					"method": "ObjectMethods/Button2.4dm",
-					"events": [
-						"onClick"
-					]
+					],
+					"focusable": false
 				},
 				"Button3": {
 					"type": "button",
@@ -52,29 +38,15 @@
 					"left": 18,
 					"width": 347,
 					"height": 51,
-					"dataSource": "Button1",
+					"dataSource": "",
 					"text": "Index Sort with 1 process",
 					"fontFamily": "Helvetica",
 					"fontSize": 24,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
-				},
-				"Button4": {
-					"type": "button",
-					"top": 196,
-					"left": 408,
-					"width": 345,
-					"height": 51,
-					"dataSource": "Button1",
-					"text": "Index Sort with 7 process",
-					"fontFamily": "Helvetica",
-					"fontSize": 24,
-					"method": "ObjectMethods/Button4.4dm",
-					"events": [
-						"onClick"
-					]
+					],
+					"focusable": false
 				},
 				"Button5": {
 					"type": "button",
@@ -82,29 +54,15 @@
 					"left": 18,
 					"width": 340,
 					"height": 53,
-					"dataSource": "Button1",
+					"dataSource": "",
 					"text": "Seq Sort with 1 process",
 					"fontFamily": "Helvetica",
 					"fontSize": 24,
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
 						"onClick"
-					]
-				},
-				"Button6": {
-					"type": "button",
-					"top": 380,
-					"left": 408,
-					"width": 345,
-					"height": 53,
-					"dataSource": "Button1",
-					"text": "Seq Sort with 7 process",
-					"fontFamily": "Helvetica",
-					"fontSize": 24,
-					"method": "ObjectMethods/Button6.4dm",
-					"events": [
-						"onClick"
-					]
+					],
+					"focusable": false
 				},
 				"Text1": {
 					"type": "text",
@@ -123,33 +81,6 @@
 					"width": 157,
 					"height": 28,
 					"dataSource": "result1",
-					"dataSourceTypeHint": "number",
-					"fontFamily": "Helvetica",
-					"fontSize": 24,
-					"focusable": false,
-					"enterable": false,
-					"contextMenu": "none",
-					"events": [
-						"onDataChange"
-					]
-				},
-				"Text2": {
-					"type": "text",
-					"top": 101,
-					"left": 408,
-					"width": 175,
-					"height": 28,
-					"fontFamily": "Helvetica",
-					"fontSize": 24,
-					"text": "Result in ms:"
-				},
-				"Variable2": {
-					"type": "input",
-					"top": 101,
-					"left": 598,
-					"width": 155,
-					"height": 28,
-					"dataSource": "result2",
 					"dataSourceTypeHint": "number",
 					"fontFamily": "Helvetica",
 					"fontSize": 24,
@@ -187,60 +118,6 @@
 						"onDataChange"
 					]
 				},
-				"Text4": {
-					"type": "text",
-					"top": 268,
-					"left": 408,
-					"width": 175,
-					"height": 28,
-					"fontFamily": "Helvetica",
-					"fontSize": 24,
-					"text": "Result in ms:"
-				},
-				"Variable4": {
-					"type": "input",
-					"top": 268,
-					"left": 598,
-					"width": 155,
-					"height": 28,
-					"dataSource": "result4",
-					"dataSourceTypeHint": "number",
-					"fontFamily": "Helvetica",
-					"fontSize": 24,
-					"focusable": false,
-					"enterable": false,
-					"contextMenu": "none",
-					"events": [
-						"onDataChange"
-					]
-				},
-				"Text5": {
-					"type": "text",
-					"top": 453,
-					"left": 408,
-					"width": 175,
-					"height": 28,
-					"fontFamily": "Helvetica",
-					"fontSize": 24,
-					"text": "Result in ms:"
-				},
-				"Variable5": {
-					"type": "input",
-					"top": 453,
-					"left": 598,
-					"width": 155,
-					"height": 28,
-					"dataSource": "result6",
-					"dataSourceTypeHint": "number",
-					"fontFamily": "Helvetica",
-					"fontSize": 24,
-					"focusable": false,
-					"enterable": false,
-					"contextMenu": "none",
-					"events": [
-						"onDataChange"
-					]
-				},
 				"Text6": {
 					"type": "text",
 					"top": 453,
@@ -258,6 +135,264 @@
 					"width": 157,
 					"height": 28,
 					"dataSource": "result5",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 37,
+					"left": 371,
+					"width": 347,
+					"height": 49,
+					"dataSource": "",
+					"text": "Seq Search with 3 process",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					],
+					"focusable": false
+				},
+				"Button4": {
+					"type": "button",
+					"top": 196,
+					"left": 378,
+					"width": 347,
+					"height": 51,
+					"dataSource": "",
+					"text": "Index Sort with 3 process",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					],
+					"focusable": false
+				},
+				"Button6": {
+					"type": "button",
+					"top": 380,
+					"left": 378,
+					"width": 340,
+					"height": 53,
+					"dataSource": "",
+					"text": "Seq Sort with 3 process",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					],
+					"focusable": false
+				},
+				"Text2": {
+					"type": "text",
+					"top": 101,
+					"left": 371,
+					"width": 175,
+					"height": 28,
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"text": "Result in ms:"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 101,
+					"left": 561,
+					"width": 157,
+					"height": 28,
+					"dataSource": "result2",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 268,
+					"left": 378,
+					"width": 175,
+					"height": 28,
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"text": "Result in ms:"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 268,
+					"left": 568,
+					"width": 157,
+					"height": 28,
+					"dataSource": "result4",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 453,
+					"left": 378,
+					"width": 175,
+					"height": 28,
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"text": "Result in ms:"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 453,
+					"left": 568,
+					"width": 157,
+					"height": 28,
+					"dataSource": "result6",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 37,
+					"left": 731,
+					"width": 347,
+					"height": 49,
+					"dataSource": "",
+					"text": "Seq Search with 7 process",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					],
+					"focusable": false
+				},
+				"Button8": {
+					"type": "button",
+					"top": 196,
+					"left": 738,
+					"width": 347,
+					"height": 51,
+					"dataSource": "",
+					"text": "Index Sort with 7 process",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					],
+					"focusable": false
+				},
+				"Button9": {
+					"type": "button",
+					"top": 380,
+					"left": 738,
+					"width": 340,
+					"height": 53,
+					"dataSource": "",
+					"text": "Seq Sort with 7 process",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"method": "ObjectMethods/Button9.4dm",
+					"events": [
+						"onClick"
+					],
+					"focusable": false
+				},
+				"Text7": {
+					"type": "text",
+					"top": 101,
+					"left": 731,
+					"width": 175,
+					"height": 28,
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"text": "Result in ms:"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 101,
+					"left": 921,
+					"width": 157,
+					"height": 28,
+					"dataSource": "result7",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 268,
+					"left": 738,
+					"width": 175,
+					"height": 28,
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"text": "Result in ms:"
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 268,
+					"left": 928,
+					"width": 157,
+					"height": 28,
+					"dataSource": "result8",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 453,
+					"left": 738,
+					"width": 175,
+					"height": 28,
+					"fontFamily": "Helvetica",
+					"fontSize": 24,
+					"text": "Result in ms:"
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 453,
+					"left": 928,
+					"width": 157,
+					"height": 28,
+					"dataSource": "result9",
 					"dataSourceTypeHint": "number",
 					"fontFamily": "Helvetica",
 					"fontSize": 24,
@@ -286,7 +421,7 @@
 			"View 9": {}
 		}
 	},
-	"geometryStamp": 23,
+	"geometryStamp": 71,
 	"$4d": {
 		"version": "1",
 		"kind": "form"

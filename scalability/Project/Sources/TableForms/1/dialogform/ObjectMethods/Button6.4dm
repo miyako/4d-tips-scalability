@@ -1,1 +1,1 @@
-result6:=Starter("loop Seq Sort"; 7; 10)
+result6:=Starter(Formula:C1597(loop Seq Sort).source; 3; 10)

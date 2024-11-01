@@ -1,4 +1,6 @@
 //%attributes = {"invisible":true,"preemptive":"capable"}
+#DECLARE($procname : Text; $nbprocess : Integer; $nbpass : Integer)
+
 var $p : Object
 
 $p:=Storage:C1525.p
@@ -15,23 +17,20 @@ End use
 
 warmup
 
-procname:=$1
-nbprocess:=$2
-nbpass:=$3
+$t:=Milliseconds:C459
 
-t:=Milliseconds:C459
+//ARRAY LONGINT($procs; $nbprocess)
 
-ARRAY LONGINT:C221(procs; nbprocess)
-
-For (i; 1; nbprocess)
-	procs{i}:=New process:C317(procname; 0; "my process "+String:C10(i); nbpass; i)
+For ($i; 1; $nbprocess)
+	//$procs{$i}:=New process($procname; 0; "my process "+String($i); {nbpass: $nbpass; i: $i})
+	CALL WORKER:C1389("my process "+String:C10($i); $procname; {nbpass: $nbpass; i: $i})
 End for 
 
-maxpass:=nbprocess*nbpass
-While ($p.nbpass<maxpass)
+$maxpass:=$nbprocess*$nbpass
+While ($p.nbpass<$maxpass)
 	DELAY PROCESS:C323(Current process:C322; 10)
 End while 
 
-t2:=Milliseconds:C459
+$t2:=Milliseconds:C459
 
-$0:=t2-t
+$0:=$t2-$t
