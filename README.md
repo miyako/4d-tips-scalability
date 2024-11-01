@@ -24,7 +24,7 @@ the result is proportional to the number of processes, as the processes are cöo
 
 #### compiled mode
 
-the result suggests parallel processing, but beyond a threshold, the total speed is slower than interpreted.
+the result suggests parallel processing, but beyond a threshold, the performance is worse than interpreted.
 
 <img src="https://github.com/user-attachments/assets/8cb1ba03-be4d-4348-9dff-176ecb301290" width="426" />
 
