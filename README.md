@@ -8,3 +8,4 @@ replica of 4D v11 SQL demo database, originally shown at the 2008 Summit in Long
 
 the query and sort are executed in multiple forms. 
 the objective is to showcase the preëmtive performance of the database engine itself.
+no real difference between interpreted and compiled.
